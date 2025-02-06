@@ -1,0 +1,42 @@
+{
+  // *** Workbench Appearance ***
+  "workbench.colorTheme": "Nord",
+  "workbench.iconTheme": "material-icon-theme",
+  // *** 日本語校正くん ***
+  "japanese-proofreading.textlint.助詞の連続": true,
+  "japanese-proofreading.textlint.外来語カタカナ表記": false,
+  "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
+  "japanese-proofreading.textlint.丸かっこ（）": false,
+  "japanese-proofreading.textlint.大かっこ［］": false,
+  // *** Editor ***
+  "editor.fontFamily": "HackGen, UDEVGothic, 'VL Gothic', 'Yu Gothic UI', Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  // *** Prettier ***
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 256,
+  // *** Code Spell Checker ***
+  "cSpell.ignorePaths": [
+    "extensions.json",
+    "settings.json",
+    "LICENSE",
+    "bk/*.md",
+    "work/*.md",
+    "ひな形/*.md"
+  ],
+  // *** File ***
+  "files.eol": "\n",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "always"
+    },
+    "files.insertFinalNewline": true,
+  },
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  }
+}

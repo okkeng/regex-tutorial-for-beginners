@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    // *** Markdown ***
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "mdickin.markdown-shortcuts",
+    // *** Formatter / Linter ***
+    "esbenp.prettier-vscode",
+    // *** Spell Check / Japanese Support ***
+    "streetsidesoftware.code-spell-checker",
+    "sgryjp.japanese-word-handler",
+    "ics.japanese-proofreading",
+    "mosapride.zenkaku",
+    // *** Support ***
+    "oderwat.indent-rainbow",
+    "shardulm94.trailing-spaces",
+    "christian-kohler.path-intellisense",
+    "aaron-bond.better-comments",
+    // *** VS Code Theme ***
+    "arcticicestudio.nord-visual-studio-code",
+    "JonathanHarty.gruvbox-material-icon-theme",
+    // *** Generative AI ***
+    "GitHub.copilot",
+    "GitHub.copilot-chat"
+  ],
+  "unwantedRecommendations": []
+}
